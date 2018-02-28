@@ -267,7 +267,12 @@
                     </div>
                     <form action="mailto:mfayoumi94@gmail.com" method="post">
                         <label class="form-field form-field--name"><input type="text" name="name" placeholder="Name" autocomplete="off" data-scroll-spy="true"></label><label class="form-field form-field--subject"><input type="text" name="subject" placeholder="Subject" autocomplete="off" data-scroll-spy="true"></label><label class="form-field form-field--email"><input type="text" name="email" placeholder="E-mail Address" autocomplete="off" data-scroll-spy="true"></label><label class="form-field form-field--message"><textarea name="message" placeholder="Message" data-scroll-spy="true"></textarea></label>
-                        <div class="product__actions"><a href="success.html" class="btn product__link" target="_blank">Send Message</a></div>
+                        <div data-scroll-spy="true" class="form-actions">
+                            <button type="submit" class="btn" a href="success.html">
+                                Send Message
+                                <div class="spinner"></div>
+                            </button>
+                        </div>
                         
                     </form>
                     <div id="contact-form-success">
